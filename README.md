@@ -1,6 +1,10 @@
 # Virtual-Electronic-Troubleshooting-Assistant
 The Virtual Electronic Troubleshooting Assistant is an AI-powered Streamlit app that enables users to upload technical PDFs and query them via a natural language chat. Built with LangChain, Hugging Face, Pinecone and hybrid search (BM25 + embeddings), it provides accurate, context-aware responses from uploaded documents.
 
+![image](https://github.com/user-attachments/assets/8cbb4b5f-1852-4aab-ab27-0a398a886963)
+
+
+
 ## Features
 
 * Upload and process multiple PDFs containing technical documentation.
