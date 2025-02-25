@@ -1,12 +1,13 @@
-# Virtual-Electronic-Troubleshooting-Assistan-RAG-Hybridsearch-Langchain-HuggingFace-streamlit-
+# Virtual-Electronic-Troubleshooting-Assistant
 The Virtual Electronic Troubleshooting Assistant is an AI-powered Streamlit app that enables users to upload technical PDFs and query them via a natural language chat. Built with LangChain, Hugging Face, Pinecone and hybrid search (BM25 + embeddings), it provides accurate, context-aware responses from uploaded documents.
 
 ## Features
 
-* PDF Document Processing: Upload and process multiple PDF files
-* Conversational Interface: Chat-like UI for natural interaction
-* Hybrid Search Technology: Combines dense and sparse embeddings for better retrieval
-* Context-Aware Responses: Generates answers based only on your uploaded documentation
+* Upload and process multiple PDFs containing technical documentation.
+* Hybrid Search: Combines BM25 sparse retrieval and Dense embeddings for better document search.
+* Uses Mistral-7B-Instruct via Hugging Face Inference API for LLM-based question answering.
+* Retrieval-Augmented Generation (RAG) approach for precise and context-aware responses.
+* Interactive chat interface powered by Streamlit.
 * Chat History Management: Maintains conversation context during your session
 
 ## Requirements
@@ -14,3 +15,14 @@ The Virtual Electronic Troubleshooting Assistant is an AI-powered Streamlit app 
 - Python 3.8+
 - Pinecone account with API key
 - HuggingFace account with API key
+
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- LangChain
+- Hugging Face Transformers
+- Pinecone (Vector DB)
+- BM25 Encoder (Sparse Retrieval)
+- PyPDF2 (PDF text extraction)
+- dotenv (Environment variables management)
