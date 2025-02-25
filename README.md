@@ -11,6 +11,6 @@ The Virtual Electronic Troubleshooting Assistant is an AI-powered Streamlit app 
 
 ## Requirements
 
-[ ] Python 3.8+
-[ ] Pinecone account with API key
-[ ] HuggingFace account with API key
+- Python 3.8+
+- Pinecone account with API key
+- HuggingFace account with API key
