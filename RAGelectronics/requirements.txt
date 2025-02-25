@@ -1,0 +1,9 @@
+pinecone
+langchain-pinecone
+langchain-openai
+langchain-text-splitters
+langchain_community
+langchain_huggingface
+pinecone_text
+dotenv
+nltk
