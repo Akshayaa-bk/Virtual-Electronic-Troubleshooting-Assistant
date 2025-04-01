@@ -13,20 +13,69 @@ The Virtual Electronic Troubleshooting Assistant is an AI-powered Streamlit app 
 
 
 
-## Features
+## 🌟 Features
 
-* Upload and process multiple PDFs containing technical documentation.
-* Hybrid Search: Combines BM25 sparse retrieval and Dense embeddings for better document search.
-* Uses Mistral-7B-Instruct via Hugging Face Inference API for LLM-based question answering.
-* Retrieval-Augmented Generation (RAG) approach for precise and context-aware responses.
-* Interactive chat interface powered by Streamlit.
-* Chat History Management: Maintains conversation context during your session
+### 🔧 Technical Troubleshooting Chat
 
-## Requirements
+- **PDF Document Processing**
+  - Upload and process multiple technical manuals and documentation in PDF format
+  - Automatic text extraction, chunking, and semantic indexing
+  - Persistent storage of document contents in a Pinecone vector database
 
-- Python 3.8+
-- Pinecone account with API key
-- HuggingFace account with API key
+- **Intelligent Search & Retrieval**
+  - Hybrid search combining dense vector embeddings with sparse BM25 retrieval
+  - Context-aware document retrieval prioritizing most relevant content
+  - Source attribution for retrieved information
+
+- **Conversational AI Assistant**
+  - Natural language interface for technical support
+  - Context-aware responses based on uploaded documentation
+  - Persistent chat history with clear formatting
+
+- **Knowledge Base Management**
+  - On-demand document processing
+  - Real-time indexing of new documents
+  - Document database reset functionality
+
+### 📦 Inventory Management System
+
+- **Comprehensive Inventory Dashboard**
+  - Real-time inventory statistics and metrics
+  - Visual indicators for stock levels and alerts
+  - Tabbed interface for different inventory views
+
+- **Smart Inventory Filtering**
+  - Automatic identification of low stock items (≤5 units)
+  - Out of stock items tracking
+  - Full-text search across product names, spare parts, and descriptions
+
+- **Stock Management**
+  - Easy quantity updates for inventory items
+  - Bulk import from Excel spreadsheets
+  - Complete inventory database reset with confirmation
+
+- **Reporting Capabilities**
+  - Downloadable inventory reports in CSV format
+  - Low stock alerts with visual indicators
+  - Stock level forecasting
+
+- **User-Friendly Interface**
+  - Clean, responsive design
+  - Intuitive navigation with tabbed sections
+  - Success/warning notifications and confirmation dialogs
+
+### 🔗 Integration Features
+
+- **Inventory-Aware Troubleshooting**
+  - Automatic part identification in user queries
+  - Replacement part suggestions based on inventory availability
+  - Integration between troubleshooting chat and inventory system
+
+- **Natural Language Inventory Queries**
+  - Detect replacement and inventory questions in natural language
+  - Extract part names from user queries
+  - Provide inventory status within the chat interface
+
 
 ## 🛠️ Tech Stack
 
